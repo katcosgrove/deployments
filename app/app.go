@@ -20,8 +20,8 @@ import (
 	"io/ioutil"
 	"time"
 
+	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
-	"github.com/satori/go.uuid"
 
 	"github.com/mendersoftware/go-lib-micro/log"
 	"github.com/mendersoftware/mender-artifact/areader"

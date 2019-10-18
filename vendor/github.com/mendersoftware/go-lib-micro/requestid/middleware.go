@@ -1,4 +1,4 @@
-// Copyright 2018 Northern.tech AS
+// Copyright 2019 Northern.tech AS
 //
 //    Licensed under the Apache License, Version 2.0 (the "License");
 //    you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@ package requestid
 
 import (
 	"github.com/ant0ine/go-json-rest/rest"
-	"github.com/satori/go.uuid"
+	"github.com/gofrs/uuid"
 
 	"github.com/mendersoftware/go-lib-micro/log"
 	"github.com/mendersoftware/go-lib-micro/requestlog"

@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/asaskevich/govalidator"
-	"github.com/satori/go.uuid"
+	"github.com/gofrs/uuid"
 )
 
 // Errors
