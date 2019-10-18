@@ -22,7 +22,7 @@ import (
 	ctxstore "github.com/mendersoftware/go-lib-micro/store"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mendersoftware/deployments/model"
+	"github.com/mendersoftware/deployments/v2/model"
 )
 
 // db and test management funcs

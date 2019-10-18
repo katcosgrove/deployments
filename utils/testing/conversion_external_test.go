@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/mendersoftware/deployments/utils/testing"
+	. "github.com/mendersoftware/deployments/v2/utils/testing"
 )
 
 func TestErrorToErrStruct(t *testing.T) {

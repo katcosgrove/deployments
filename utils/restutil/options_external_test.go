@@ -22,7 +22,7 @@ import (
 	"github.com/ant0ine/go-json-rest/rest"
 	"github.com/ant0ine/go-json-rest/rest/test"
 
-	. "github.com/mendersoftware/deployments/utils/restutil"
+	. "github.com/mendersoftware/deployments/v2/utils/restutil"
 )
 
 func TestOptionsHandle(t *testing.T) {

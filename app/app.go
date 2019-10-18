@@ -28,10 +28,10 @@ import (
 	"github.com/mendersoftware/mender-artifact/artifact"
 	"github.com/mendersoftware/mender-artifact/handlers"
 
-	"github.com/mendersoftware/deployments/model"
-	"github.com/mendersoftware/deployments/s3"
-	"github.com/mendersoftware/deployments/store"
-	"github.com/mendersoftware/deployments/store/mongo"
+	"github.com/mendersoftware/deployments/v2/model"
+	"github.com/mendersoftware/deployments/v2/s3"
+	"github.com/mendersoftware/deployments/v2/store"
+	"github.com/mendersoftware/deployments/v2/store/mongo"
 )
 
 const (

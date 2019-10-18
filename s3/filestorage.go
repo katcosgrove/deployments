@@ -29,7 +29,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/pkg/errors"
 
-	"github.com/mendersoftware/deployments/model"
+	"github.com/mendersoftware/deployments/v2/model"
 	"github.com/mendersoftware/go-lib-micro/identity"
 
 	"github.com/mendersoftware/go-lib-micro/log"

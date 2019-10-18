@@ -24,22 +24,22 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	"github.com/ant0ine/go-json-rest/rest"
 	"github.com/ant0ine/go-json-rest/rest/test"
-	deploymentsModel "github.com/mendersoftware/deployments/resources/deployments/model"
-	"github.com/mendersoftware/deployments/utils/restutil/view"
+	deploymentsModel "github.com/mendersoftware/deployments/v2/resources/deployments/model"
+	"github.com/mendersoftware/deployments/v2/utils/restutil/view"
 	"github.com/mendersoftware/go-lib-micro/requestid"
 	"github.com/mendersoftware/go-lib-micro/requestlog"
 	mt "github.com/mendersoftware/go-lib-micro/testing"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	imageController "github.com/mendersoftware/deployments/resources/images/controller"
+	imageController "github.com/mendersoftware/deployments/v2/resources/images/controller"
 
-	"github.com/mendersoftware/deployments/app/mocks"
-	"github.com/mendersoftware/deployments/model"
-	h "github.com/mendersoftware/deployments/utils/testing"
+	"github.com/mendersoftware/deployments/v2/app/mocks"
+	"github.com/mendersoftware/deployments/v2/model"
+	h "github.com/mendersoftware/deployments/v2/utils/testing"
 )
 
 type routerTypeHandler func(pathExp string, handlerFunc rest.HandlerFunc) *rest.Route

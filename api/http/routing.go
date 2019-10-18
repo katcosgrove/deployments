@@ -19,12 +19,12 @@ import (
 
 	"github.com/mendersoftware/go-lib-micro/config"
 
-	"github.com/mendersoftware/deployments/app"
-	dconfig "github.com/mendersoftware/deployments/config"
-	"github.com/mendersoftware/deployments/s3"
-	"github.com/mendersoftware/deployments/store/mongo"
-	"github.com/mendersoftware/deployments/utils/restutil"
-	"github.com/mendersoftware/deployments/utils/restutil/view"
+	"github.com/mendersoftware/deployments/v2/app"
+	dconfig "github.com/mendersoftware/deployments/v2/config"
+	"github.com/mendersoftware/deployments/v2/s3"
+	"github.com/mendersoftware/deployments/v2/store/mongo"
+	"github.com/mendersoftware/deployments/v2/utils/restutil"
+	"github.com/mendersoftware/deployments/v2/utils/restutil/view"
 )
 
 const (

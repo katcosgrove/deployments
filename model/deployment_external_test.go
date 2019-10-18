@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/mendersoftware/deployments/utils/pointers"
+	. "github.com/mendersoftware/deployments/v2/utils/pointers"
 )
 
 func TestDeploymentConstructorValidate(t *testing.T) {

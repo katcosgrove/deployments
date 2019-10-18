@@ -23,13 +23,13 @@ import (
 	"github.com/ant0ine/go-json-rest/rest/test"
 	"github.com/mendersoftware/go-lib-micro/requestid"
 
-	"github.com/mendersoftware/deployments/app"
-	"github.com/mendersoftware/deployments/model"
-	dmodel "github.com/mendersoftware/deployments/model"
-	fs_mocks "github.com/mendersoftware/deployments/s3/mocks"
-	store_mocks "github.com/mendersoftware/deployments/store/mocks"
-	"github.com/mendersoftware/deployments/utils/restutil/view"
-	deployments_testing "github.com/mendersoftware/deployments/utils/testing"
+	"github.com/mendersoftware/deployments/v2/app"
+	"github.com/mendersoftware/deployments/v2/model"
+	dmodel "github.com/mendersoftware/deployments/v2/model"
+	fs_mocks "github.com/mendersoftware/deployments/v2/s3/mocks"
+	store_mocks "github.com/mendersoftware/deployments/v2/store/mocks"
+	"github.com/mendersoftware/deployments/v2/utils/restutil/view"
+	deployments_testing "github.com/mendersoftware/deployments/v2/utils/testing"
 	mt "github.com/mendersoftware/go-lib-micro/testing"
 )
 
@@ -52,7 +52,7 @@ func TestGetReleases(t *testing.T) {
 							},
 
 							SoftwareImageMetaArtifactConstructor: model.SoftwareImageMetaArtifactConstructor{
-								Name: "App1 v1.0",
+								Name:                  "App1 v1.0",
 								DeviceTypesCompatible: []string{"bar", "baz"},
 								Updates:               []model.Update{},
 							},
@@ -73,7 +73,7 @@ func TestGetReleases(t *testing.T) {
 								},
 
 								SoftwareImageMetaArtifactConstructor: model.SoftwareImageMetaArtifactConstructor{
-									Name: "App1 v1.0",
+									Name:                  "App1 v1.0",
 									DeviceTypesCompatible: []string{"bar", "baz"},
 									Updates:               []model.Update{},
 								},

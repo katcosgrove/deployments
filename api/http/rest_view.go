@@ -18,7 +18,7 @@ import (
 	"github.com/ant0ine/go-json-rest/rest"
 	"github.com/mendersoftware/go-lib-micro/log"
 
-	"github.com/mendersoftware/deployments/model"
+	"github.com/mendersoftware/deployments/v2/model"
 )
 
 type RESTView interface {

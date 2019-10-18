@@ -33,9 +33,9 @@ import (
 	"github.com/mendersoftware/go-lib-micro/requestlog"
 	"github.com/mendersoftware/go-lib-micro/rest_utils"
 
-	"github.com/mendersoftware/deployments/app"
-	"github.com/mendersoftware/deployments/model"
-	"github.com/mendersoftware/deployments/store"
+	"github.com/mendersoftware/deployments/v2/app"
+	"github.com/mendersoftware/deployments/v2/model"
+	"github.com/mendersoftware/deployments/v2/store"
 )
 
 const (

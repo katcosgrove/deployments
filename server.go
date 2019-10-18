@@ -21,8 +21,8 @@ import (
 
 	"github.com/mendersoftware/go-lib-micro/config"
 
-	api_http "github.com/mendersoftware/deployments/api/http"
-	dconfig "github.com/mendersoftware/deployments/config"
+	api_http "github.com/mendersoftware/deployments/v2/api/http"
+	dconfig "github.com/mendersoftware/deployments/v2/config"
 )
 
 func RunServer(c config.Reader) error {

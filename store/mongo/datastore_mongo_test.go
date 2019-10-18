@@ -19,8 +19,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mendersoftware/deployments/model"
-	dmodel "github.com/mendersoftware/deployments/model"
+	"github.com/mendersoftware/deployments/v2/model"
+	dmodel "github.com/mendersoftware/deployments/v2/model"
 )
 
 func TestGetReleases(t *testing.T) {

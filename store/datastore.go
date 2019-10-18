@@ -17,7 +17,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/mendersoftware/deployments/model"
+	"github.com/mendersoftware/deployments/v2/model"
 )
 
 type DataStore interface {

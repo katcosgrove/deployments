@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/mendersoftware/deployments/utils/pointers"
+	. "github.com/mendersoftware/deployments/v2/utils/pointers"
 )
 
 func TestNewDeviceDeployment(t *testing.T) {

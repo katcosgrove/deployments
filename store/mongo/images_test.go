@@ -21,7 +21,7 @@ import (
 	"github.com/mendersoftware/go-lib-micro/identity"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mendersoftware/deployments/model"
+	"github.com/mendersoftware/deployments/v2/model"
 )
 
 func TestSoftwareImagesStorageImageByNameAndDeviceType(t *testing.T) {
@@ -38,7 +38,7 @@ func TestSoftwareImagesStorageImageByNameAndDeviceType(t *testing.T) {
 			},
 
 			SoftwareImageMetaArtifactConstructor: model.SoftwareImageMetaArtifactConstructor{
-				Name: "App1 v1.0",
+				Name:                  "App1 v1.0",
 				DeviceTypesCompatible: []string{"foo"},
 				Updates:               []model.Update{},
 			},
@@ -50,7 +50,7 @@ func TestSoftwareImagesStorageImageByNameAndDeviceType(t *testing.T) {
 			},
 
 			SoftwareImageMetaArtifactConstructor: model.SoftwareImageMetaArtifactConstructor{
-				Name: "App2 v0.1",
+				Name:                  "App2 v0.1",
 				DeviceTypesCompatible: []string{"bar", "baz"},
 				Updates:               []model.Update{},
 			},
@@ -174,7 +174,7 @@ func TestIsArtifactUnique(t *testing.T) {
 			},
 
 			SoftwareImageMetaArtifactConstructor: model.SoftwareImageMetaArtifactConstructor{
-				Name: "app1-v1.0",
+				Name:                  "app1-v1.0",
 				DeviceTypesCompatible: []string{"foo", "bar"},
 				Updates:               []model.Update{},
 			},

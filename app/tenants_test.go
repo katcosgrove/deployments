@@ -19,12 +19,12 @@ import (
 	"fmt"
 	"testing"
 
-	fs_mocks "github.com/mendersoftware/deployments/s3/mocks"
+	fs_mocks "github.com/mendersoftware/deployments/v2/s3/mocks"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	mstore "github.com/mendersoftware/deployments/store/mocks"
+	mstore "github.com/mendersoftware/deployments/v2/store/mocks"
 )
 
 func TestProvisionTenant(t *testing.T) {

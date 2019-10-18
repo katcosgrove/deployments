@@ -17,10 +17,10 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/ant0ine/go-json-rest/rest"
 	"github.com/mendersoftware/go-lib-micro/requestid"
 	"github.com/mendersoftware/go-lib-micro/requestlog"
+	"github.com/sirupsen/logrus"
 )
 
 type RouterTypeHandler func(pathExp string, handlerFunc rest.HandlerFunc) *rest.Route

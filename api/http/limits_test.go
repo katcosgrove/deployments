@@ -22,18 +22,18 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/ant0ine/go-json-rest/rest"
 	"github.com/ant0ine/go-json-rest/rest/test"
 	"github.com/mendersoftware/go-lib-micro/requestid"
 	"github.com/mendersoftware/go-lib-micro/requestlog"
+	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	app_mocks "github.com/mendersoftware/deployments/app/mocks"
-	"github.com/mendersoftware/deployments/model"
-	store_mocks "github.com/mendersoftware/deployments/store/mocks"
-	"github.com/mendersoftware/deployments/utils/restutil/view"
+	app_mocks "github.com/mendersoftware/deployments/v2/app/mocks"
+	"github.com/mendersoftware/deployments/v2/model"
+	store_mocks "github.com/mendersoftware/deployments/v2/store/mocks"
+	"github.com/mendersoftware/deployments/v2/utils/restutil/view"
 )
 
 type routerTypeHandler func(pathExp string, handlerFunc rest.HandlerFunc) *rest.Route

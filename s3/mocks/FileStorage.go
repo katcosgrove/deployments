@@ -16,7 +16,7 @@ package mocks
 import context "context"
 import io "io"
 import mock "github.com/stretchr/testify/mock"
-import model "github.com/mendersoftware/deployments/model"
+import model "github.com/mendersoftware/deployments/v2/model"
 
 import time "time"
 

@@ -25,8 +25,8 @@ import (
 	mstore "github.com/mendersoftware/go-lib-micro/store"
 	"github.com/urfave/cli"
 
-	dconfig "github.com/mendersoftware/deployments/config"
-	"github.com/mendersoftware/deployments/store/mongo"
+	dconfig "github.com/mendersoftware/deployments/v2/config"
+	"github.com/mendersoftware/deployments/v2/store/mongo"
 )
 
 func main() {

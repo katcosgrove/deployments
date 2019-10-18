@@ -25,8 +25,8 @@ import (
 	ctxstore "github.com/mendersoftware/go-lib-micro/store"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mendersoftware/deployments/model"
-	. "github.com/mendersoftware/deployments/utils/pointers"
+	"github.com/mendersoftware/deployments/v2/model"
+	. "github.com/mendersoftware/deployments/v2/utils/pointers"
 )
 
 func TimePtr(t time.Time) *time.Time {

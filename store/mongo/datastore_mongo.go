@@ -26,8 +26,8 @@ import (
 	mstore "github.com/mendersoftware/go-lib-micro/store"
 	"github.com/pkg/errors"
 
-	dconfig "github.com/mendersoftware/deployments/config"
-	"github.com/mendersoftware/deployments/model"
+	dconfig "github.com/mendersoftware/deployments/v2/config"
+	"github.com/mendersoftware/deployments/v2/model"
 )
 
 const (

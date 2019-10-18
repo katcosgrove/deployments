@@ -25,7 +25,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mendersoftware/deployments/model"
+	"github.com/mendersoftware/deployments/v2/model"
 )
 
 func parseTime(t *testing.T, value string) *time.Time {

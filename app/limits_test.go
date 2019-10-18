@@ -23,10 +23,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/mendersoftware/deployments/model"
-	fs_mocks "github.com/mendersoftware/deployments/s3/mocks"
-	"github.com/mendersoftware/deployments/store/mocks"
-	"github.com/mendersoftware/deployments/store/mongo"
+	"github.com/mendersoftware/deployments/v2/model"
+	fs_mocks "github.com/mendersoftware/deployments/v2/s3/mocks"
+	"github.com/mendersoftware/deployments/v2/store/mocks"
+	"github.com/mendersoftware/deployments/v2/store/mongo"
 )
 
 func TestGetLimit(t *testing.T) {
